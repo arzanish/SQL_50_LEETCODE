@@ -1,0 +1,4 @@
+-- 1757. Recyclable and Low Fat Products
+-- MYSQL , LEETCODE , TOP 50 , SOLUTION
+select product_id from Products 
+where (low_fats='Y') and (recyclable='Y');
